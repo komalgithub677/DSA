@@ -28,5 +28,25 @@ public class CreationOfArray {
             		 System.out.println("Student get failed in the every subject");
             	 }
             	 
+            	 
+                  //Daily Temperatures of a Week
+            	 double temp[] = new double[7];
+            	 
+            	 temp[0] =37;
+            	 temp[1] = 30;
+            	 temp[2] =40;
+            	 temp[3] =50;
+            	 temp[4] =60;
+            	 temp[5] =70;
+            	 temp[6] =80;
+            	 
+            	 System.out.println("Tmperature of first day :" + temp[0]);
+            	 System.out.println("2 day :" + temp[1]);
+            	 System.out.println("3 day :" + temp[2]);
+            	 System.out.println("4 day :" + temp[3]);
+            	 System.out.println("5 day :" + temp[4]);
+            	 System.out.println("6 day :" + temp[5]);
+            	 System.out.println("7 day :" + temp[6]);
+            	 
 			}
 }
