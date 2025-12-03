@@ -65,7 +65,7 @@ public class CreationOfArray {
             	 int charger = prices[9] = 600;
             	 
             	 System.out.println("    ");
-            	 System.out.println("Product prices would be: ");
+            	 System.out.println("Product prices would be");
             	 System.out.println("Watch price would bethe " + watch);
             	 System.out.println("mobile pice :" + mobile);
             	 System.out.println("Kurti price :" + kurti);
