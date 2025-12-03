@@ -1,0 +1,22 @@
+package arrays;
+
+public class MinEleInArray {
+             public int minimumElement(int num[]) {
+            	 int min = num[0];
+            	 
+            	 for(int i=1; i<num.length; i++) {
+            		 if(min>num[i]) {
+            			 min = num[i];
+            		 }
+            	 }
+            	 return min;
+             }
+             
+             public static void main(String[] args) {
+            	 MinEleInArray m = new MinEleInArray();
+            	 int num[] = {32 ,34,56,78,1};
+            	 int result = m.minimumElement(num);
+            	 System.out.println("Minimum Element in array"+ result);
+			}
+	
+}
