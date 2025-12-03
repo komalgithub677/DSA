@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\Shree\Desktop\JavaDSAQuestionsSolving\.metadata\.plugins\org.eclipse.jdt.core
-2183354670.index
-1865797976.index
-949002187.index
