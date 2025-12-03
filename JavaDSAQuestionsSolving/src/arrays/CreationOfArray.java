@@ -76,6 +76,5 @@ public class CreationOfArray {
             	 System.out.println("Notebook price :" + notebook);
             	 System.out.println("Sunglasses price :" + sunglasses);
             	 System.out.println("Charger price :" + charger);
-            	 
 			}
 }
