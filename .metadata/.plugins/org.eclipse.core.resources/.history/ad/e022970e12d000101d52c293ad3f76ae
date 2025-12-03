@@ -1,0 +1,19 @@
+package arrays;
+
+public class CreationOfArray {
+             public static void main(String[] args) {
+            	// Storing Marks of Students in a Subject
+            	 int marks[] = new int[5];
+            	 
+            	 marks[0] = 37;
+            	 marks[1] =78;
+            	 marks[2] =89;
+            	 marks[3] =90;
+            	 marks[4] =95;
+            	 
+            	 int average = (marks[0] + marks[1] + marks[2]+marks[3]+marks[4])/5;
+            	 
+            	 System.out.println("Average Marks :" + average);
+            	 
+			}
+}
