@@ -60,6 +60,62 @@ public class MaxElementInArray {
 	        	   
 	           }
 	           
+	           public int fourthMax(int num[]) {
+	        	   int max1 = Integer.MIN_VALUE;
+	        	   int max2 = Integer.MIN_VALUE;
+	        	   int max3 = Integer.MIN_VALUE;
+	        	   int max4 = Integer.MIN_VALUE;
+	        	   
+	        	   for(int i=0; i<num.length; i++) {
+	        		   if(num[i]>max1) {
+	        			   max4 =max3;
+	        			   max3 =max2;
+	        			   max2 =max1;
+	        			   max1=num[i];
+	        		   }
+	        		   else if(num[i]>max2 && num[i]!=max1) {
+	        			   num[i]=max2;
+	        		   }
+	        		   else if(num[i]>max3 && num[i]!=max2 && num[i]!=max1 ) {
+	        			   num[i]=max3;
+	        		   }
+	        		   else if(num[i]>max4 && num[i]!=max3 && num[i]!=max2 && num[i]!=max1 ) {
+	        			   num[i]=max4;
+	        		   }
+	        	   }
+	        	   return max4;
+	           }
+	           
+	           public int fifthMax(int num[]) {
+	        	   int max1 = Integer.MIN_VALUE;
+	        	   int max2 = Integer.MIN_VALUE;
+	        	   int max3 = Integer.MIN_VALUE;
+	        	   int max4 = Integer.MIN_VALUE;
+	        	   int max5 = Integer.MIN_VALUE;
+	        	   
+	        	   for(int i=0; i<num.length; i++) {
+	        		   if(num[i]>max1) {
+	        			   max5 =max4;
+	        			   max4 =max3;
+	        			   max3 =max2;
+	        			   max2 =max1;
+	        			   max1=num[i];
+	        		   }
+	        		   else if(num[i]>max2 && num[i]!=max1) {
+	        			   num[i]=max2;
+	        		   }
+	        		   else if(num[i]>max3 && num[i]!=max2 && num[i]!=max1 ) {
+	        			   num[i]=max3;
+	        		   }
+	        		   else if(num[i]>max4 && num[i]!=max3 && num[i]!=max2 && num[i]!=max1 ) {
+	        			   num[i]=max4;
+	        		   }
+	        		   else if(num[i]>max5 && num[i]!=max5 && num[i]!=max3 && num[i]!=max2 && num[i]!=max1 ) {
+	        			   num[i]=max5;
+	        		   }
+	        	   }
+	        	   return max4;
+	           }
 	           
  
               public static void main(String[] args) {
@@ -68,8 +124,12 @@ public class MaxElementInArray {
             	  int result = m1.MaximumElement(num);
             	  int result1 = m1.SecondMaximum(num);
             	  int result2 =m1.ThirdMax(num);
+            	  int result3 = m1.fourthMax(num);
+            	  int result4 =m1.fifthMax(num);
             	  System.out.println("Maximum element in an array would be :" + result);
             	  System.out.println("Second maximum element would be :" + result1);
             	  System.out.println("Third Maximum element would be the :" + result2);
+            	  System.out.println("Fourth max element would be the : " + result3);
+            	  System.out.println("Fifth maximum number would be the:"+ result4);
 			}
 }
