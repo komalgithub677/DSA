@@ -61,17 +61,7 @@ public class MaxElementInArray {
 	           }
 	           
 	           
-	           
-	           
-	           
-	           
-	           
-	           
-	           
-	           
-	           
-	           
-	           
+ 
               public static void main(String[] args) {
             	  MaxElementInArray m1 = new MaxElementInArray();
             	  int num[] = {11,12,24,34,24};
