@@ -23,13 +23,7 @@ public class MinEleInArray {
             			 
             		 }
             	 }
-            	 
-            	 
-            	 
-            	 
-            	 
-            	 return m2;
-            	 
+            	 return m2; 
              }
              
              public static void main(String[] args) {
